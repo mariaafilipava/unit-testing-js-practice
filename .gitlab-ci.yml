@@ -1,0 +1,13 @@
+stages:
+  - lint
+
+eslint-check:
+  stage: lint
+  image: node:20
+  before_script:
+    - npm install
+  script:
+    - npx eslint .
+  only:
+    - main
+    - practice*
