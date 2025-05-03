@@ -4,20 +4,16 @@ import vm from 'vm';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
-// Получаем абсолютный путь до .js файла
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const filePath = path.join(__dirname, '../src/utils/studentKnowledgeCheckerUtil.js');
 
-// Читаем файл как текст
 const code = await readFile(filePath, 'utf8');
 
-// Создаём песочницу и исполняем код
 const sandbox = {};
 vm.createContext(sandbox);
 vm.runInContext(code, sandbox);
 
-// Достаём функцию по имени
 const checkStudentKnowledge = sandbox.checkStudentKnowledge;
 
 describe('checkStudentKnowledge', () => {

@@ -5,8 +5,8 @@
     "passes": 27,
     "pending": 0,
     "failures": 0,
-    "start": "2025-04-16T17:28:40.588Z",
-    "end": "2025-04-16T17:28:40.605Z",
+    "start": "2025-05-03T15:23:37.885Z",
+    "end": "2025-05-03T15:23:37.902Z",
     "duration": 17,
     "testsRegistered": 27,
     "passPercent": 100,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "721243e0-b05d-48ef-8b9e-068ea66f9ff9",
+      "uuid": "c8a7bc2c-f8f6-4bef-8f47-a21a43479527",
       "title": "",
       "fullFile": "",
       "file": "",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "affe66a4-0d26-42f9-b515-bd9c4e75381c",
+          "uuid": "999a56cd-dbbe-4a6e-8b75-c64f7cc68add",
           "title": "arrayUtils",
           "fullFile": "/Users/maryfilipova/Desktop/unit-testing-js-practice/test/arrayUtils.test.mjs",
           "file": "/test/arrayUtils.test.mjs",
@@ -36,7 +36,7 @@
           "tests": [],
           "suites": [
             {
-              "uuid": "c3a41a73-d11a-4c23-ae47-dc81cb2f1e5e",
+              "uuid": "c1ebc35a-1841-4418-be8e-5622d6b75513",
               "title": "findMax()",
               "fullFile": "/Users/maryfilipova/Desktop/unit-testing-js-practice/test/arrayUtils.test.mjs",
               "file": "/test/arrayUtils.test.mjs",
@@ -56,8 +56,8 @@
                   "context": null,
                   "code": "expect(findMax([1, 5, 3])).to.equal(5);",
                   "err": {},
-                  "uuid": "951f7f51-f8a4-4124-ae45-616e344c15d0",
-                  "parentUUID": "c3a41a73-d11a-4c23-ae47-dc81cb2f1e5e",
+                  "uuid": "1d9418a5-d03c-4086-ac7a-68eeb8c12279",
+                  "parentUUID": "c1ebc35a-1841-4418-be8e-5622d6b75513",
                   "isHook": false,
                   "skipped": false
                 },
@@ -74,16 +74,16 @@
                   "context": null,
                   "code": "expect(() => findMax('123')).to.throw('Input must be an array');",
                   "err": {},
-                  "uuid": "838c5f45-d9ac-4abf-8e7c-043f31d0d34e",
-                  "parentUUID": "c3a41a73-d11a-4c23-ae47-dc81cb2f1e5e",
+                  "uuid": "e1f6a046-9e8f-4167-b0b2-97333b9de16d",
+                  "parentUUID": "c1ebc35a-1841-4418-be8e-5622d6b75513",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "951f7f51-f8a4-4124-ae45-616e344c15d0",
-                "838c5f45-d9ac-4abf-8e7c-043f31d0d34e"
+                "1d9418a5-d03c-4086-ac7a-68eeb8c12279",
+                "e1f6a046-9e8f-4167-b0b2-97333b9de16d"
               ],
               "failures": [],
               "pending": [],
@@ -94,7 +94,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "2c3b1ee5-2aab-4d54-ab23-f1e624c95489",
+              "uuid": "62c989fb-f3fc-465a-bc98-d63e6dbda153",
               "title": "findMin()",
               "fullFile": "/Users/maryfilipova/Desktop/unit-testing-js-practice/test/arrayUtils.test.mjs",
               "file": "/test/arrayUtils.test.mjs",
@@ -114,8 +114,8 @@
                   "context": null,
                   "code": "expect(findMin([1, -5, 3])).to.equal(-5);",
                   "err": {},
-                  "uuid": "b2762519-0c35-41a0-9619-5d54c8e539c1",
-                  "parentUUID": "2c3b1ee5-2aab-4d54-ab23-f1e624c95489",
+                  "uuid": "0efbdbdb-f6ef-4d4f-a65b-59aff3dde2ee",
+                  "parentUUID": "62c989fb-f3fc-465a-bc98-d63e6dbda153",
                   "isHook": false,
                   "skipped": false
                 },
@@ -132,16 +132,16 @@
                   "context": null,
                   "code": "expect(() => findMin({})).to.throw('Input must be an array');",
                   "err": {},
-                  "uuid": "0f20f26c-efcb-49a0-9e8b-8fb3c0489f1e",
-                  "parentUUID": "2c3b1ee5-2aab-4d54-ab23-f1e624c95489",
+                  "uuid": "1d32dcdc-f014-4dd3-9cf6-69248c08b13a",
+                  "parentUUID": "62c989fb-f3fc-465a-bc98-d63e6dbda153",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "b2762519-0c35-41a0-9619-5d54c8e539c1",
-                "0f20f26c-efcb-49a0-9e8b-8fb3c0489f1e"
+                "0efbdbdb-f6ef-4d4f-a65b-59aff3dde2ee",
+                "1d32dcdc-f014-4dd3-9cf6-69248c08b13a"
               ],
               "failures": [],
               "pending": [],
@@ -152,7 +152,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "e96871d9-f02b-4165-992b-722b1913467f",
+              "uuid": "e55a6ff9-5737-4f7a-9938-7a83e5f7be07",
               "title": "removeDuplicates()",
               "fullFile": "/Users/maryfilipova/Desktop/unit-testing-js-practice/test/arrayUtils.test.mjs",
               "file": "/test/arrayUtils.test.mjs",
@@ -172,8 +172,8 @@
                   "context": null,
                   "code": "expect(removeDuplicates([1, 2, 2, 3])).to.eql([1, 2, 3]);",
                   "err": {},
-                  "uuid": "02498668-65c3-4d2d-82b6-c2cca57bf0a4",
-                  "parentUUID": "e96871d9-f02b-4165-992b-722b1913467f",
+                  "uuid": "82cb4b42-b789-4c4f-ba65-7a7a6197637d",
+                  "parentUUID": "e55a6ff9-5737-4f7a-9938-7a83e5f7be07",
                   "isHook": false,
                   "skipped": false
                 },
@@ -190,16 +190,16 @@
                   "context": null,
                   "code": "expect(() => removeDuplicates(null)).to.throw('Input must be an array');",
                   "err": {},
-                  "uuid": "087cb5eb-e422-494f-a366-9caa174b6b0d",
-                  "parentUUID": "e96871d9-f02b-4165-992b-722b1913467f",
+                  "uuid": "d8349495-0196-4afb-a1a9-f043891e83fa",
+                  "parentUUID": "e55a6ff9-5737-4f7a-9938-7a83e5f7be07",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "02498668-65c3-4d2d-82b6-c2cca57bf0a4",
-                "087cb5eb-e422-494f-a366-9caa174b6b0d"
+                "82cb4b42-b789-4c4f-ba65-7a7a6197637d",
+                "d8349495-0196-4afb-a1a9-f043891e83fa"
               ],
               "failures": [],
               "pending": [],
@@ -220,7 +220,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "c00e1e96-c4d0-4445-87da-af75bac57172",
+          "uuid": "f084740c-7d89-4641-9c14-474d2000f343",
           "title": "mathUtils",
           "fullFile": "/Users/maryfilipova/Desktop/unit-testing-js-practice/test/mathUtils.test.mjs",
           "file": "/test/mathUtils.test.mjs",
@@ -229,7 +229,7 @@
           "tests": [],
           "suites": [
             {
-              "uuid": "58839e6a-a5ac-43a9-8fef-0c4ec78f8fb2",
+              "uuid": "19f86cf1-5ac4-40d7-8b8a-0fa0415cf670",
               "title": "add()",
               "fullFile": "/Users/maryfilipova/Desktop/unit-testing-js-practice/test/mathUtils.test.mjs",
               "file": "/test/mathUtils.test.mjs",
@@ -249,15 +249,15 @@
                   "context": null,
                   "code": "expect(add(2, 3)).to.equal(5);",
                   "err": {},
-                  "uuid": "ad96b559-3199-41cf-a978-934574d4f15d",
-                  "parentUUID": "58839e6a-a5ac-43a9-8fef-0c4ec78f8fb2",
+                  "uuid": "87926f93-3d0e-4114-94ca-069714556c09",
+                  "parentUUID": "19f86cf1-5ac4-40d7-8b8a-0fa0415cf670",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "ad96b559-3199-41cf-a978-934574d4f15d"
+                "87926f93-3d0e-4114-94ca-069714556c09"
               ],
               "failures": [],
               "pending": [],
@@ -268,7 +268,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "b3652551-f81d-4a12-bd14-dfac1f6b1eda",
+              "uuid": "d464ffc4-f1e7-4c66-8105-496d599f3672",
               "title": "subtract()",
               "fullFile": "/Users/maryfilipova/Desktop/unit-testing-js-practice/test/mathUtils.test.mjs",
               "file": "/test/mathUtils.test.mjs",
@@ -279,7 +279,7 @@
                   "title": "should return correct difference",
                   "fullTitle": "mathUtils subtract() should return correct difference",
                   "timedOut": false,
-                  "duration": 1,
+                  "duration": 0,
                   "state": "passed",
                   "speed": "fast",
                   "pass": true,
@@ -288,26 +288,26 @@
                   "context": null,
                   "code": "expect(subtract(5, 2)).to.equal(3);",
                   "err": {},
-                  "uuid": "ab2a240c-9ab2-4040-9ab8-5a1339ed0c1e",
-                  "parentUUID": "b3652551-f81d-4a12-bd14-dfac1f6b1eda",
+                  "uuid": "f0a9497a-e12a-4fef-acd6-5f8291528991",
+                  "parentUUID": "d464ffc4-f1e7-4c66-8105-496d599f3672",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "ab2a240c-9ab2-4040-9ab8-5a1339ed0c1e"
+                "f0a9497a-e12a-4fef-acd6-5f8291528991"
               ],
               "failures": [],
               "pending": [],
               "skipped": [],
-              "duration": 1,
+              "duration": 0,
               "root": false,
               "rootEmpty": false,
               "_timeout": 2000
             },
             {
-              "uuid": "f027aa53-a851-439e-a13f-c76b8c3df59d",
+              "uuid": "e059c72a-f845-4d97-b040-4d9235e361c4",
               "title": "multiply()",
               "fullFile": "/Users/maryfilipova/Desktop/unit-testing-js-practice/test/mathUtils.test.mjs",
               "file": "/test/mathUtils.test.mjs",
@@ -327,15 +327,15 @@
                   "context": null,
                   "code": "expect(multiply(3, 4)).to.equal(12);",
                   "err": {},
-                  "uuid": "6e39d949-028a-4f18-a532-1836ae2c5b56",
-                  "parentUUID": "f027aa53-a851-439e-a13f-c76b8c3df59d",
+                  "uuid": "3bef9313-6921-42d9-a6e3-8bdc0f10e743",
+                  "parentUUID": "e059c72a-f845-4d97-b040-4d9235e361c4",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "6e39d949-028a-4f18-a532-1836ae2c5b56"
+                "3bef9313-6921-42d9-a6e3-8bdc0f10e743"
               ],
               "failures": [],
               "pending": [],
@@ -346,7 +346,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "ecf5ae7a-a1f3-487d-a05b-b0fb31865310",
+              "uuid": "29ab85fc-5160-4dac-a722-d3d783b50e5a",
               "title": "divide()",
               "fullFile": "/Users/maryfilipova/Desktop/unit-testing-js-practice/test/mathUtils.test.mjs",
               "file": "/test/mathUtils.test.mjs",
@@ -366,8 +366,8 @@
                   "context": null,
                   "code": "expect(divide(10, 2)).to.equal(5);",
                   "err": {},
-                  "uuid": "154d15ae-0a02-454e-a45e-58dc0361b832",
-                  "parentUUID": "ecf5ae7a-a1f3-487d-a05b-b0fb31865310",
+                  "uuid": "db64fe8b-d391-4a8e-b001-759a8a13ecbf",
+                  "parentUUID": "29ab85fc-5160-4dac-a722-d3d783b50e5a",
                   "isHook": false,
                   "skipped": false
                 },
@@ -384,16 +384,16 @@
                   "context": null,
                   "code": "expect(() => divide(5, 0)).to.throw('Cannot divide by zero');",
                   "err": {},
-                  "uuid": "3ab4ef9f-f65d-4995-a65f-50ee233b64c7",
-                  "parentUUID": "ecf5ae7a-a1f3-487d-a05b-b0fb31865310",
+                  "uuid": "08e84c86-6e2b-4a35-b267-e47841829411",
+                  "parentUUID": "29ab85fc-5160-4dac-a722-d3d783b50e5a",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "154d15ae-0a02-454e-a45e-58dc0361b832",
-                "3ab4ef9f-f65d-4995-a65f-50ee233b64c7"
+                "db64fe8b-d391-4a8e-b001-759a8a13ecbf",
+                "08e84c86-6e2b-4a35-b267-e47841829411"
               ],
               "failures": [],
               "pending": [],
@@ -414,7 +414,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "dacc4ffb-bfee-4414-9bc2-58360015cee1",
+          "uuid": "34e9feb3-0bd2-4831-9b07-5f22f3a0698d",
           "title": "stringUtils",
           "fullFile": "/Users/maryfilipova/Desktop/unit-testing-js-practice/test/stringUtils.test.mjs",
           "file": "/test/stringUtils.test.mjs",
@@ -423,7 +423,7 @@
           "tests": [],
           "suites": [
             {
-              "uuid": "e2f843cf-bba7-440a-832a-19faf3ef66c0",
+              "uuid": "8e712c9a-b729-4935-83b5-d1ec7ba1811c",
               "title": "capitalize()",
               "fullFile": "/Users/maryfilipova/Desktop/unit-testing-js-practice/test/stringUtils.test.mjs",
               "file": "/test/stringUtils.test.mjs",
@@ -443,8 +443,8 @@
                   "context": null,
                   "code": "expect(capitalize('hello')).to.equal('Hello');",
                   "err": {},
-                  "uuid": "8666d6f9-483d-4b33-8cdf-ff06a4c08bb4",
-                  "parentUUID": "e2f843cf-bba7-440a-832a-19faf3ef66c0",
+                  "uuid": "20bb2013-86a4-4fba-899a-54667b1f3228",
+                  "parentUUID": "8e712c9a-b729-4935-83b5-d1ec7ba1811c",
                   "isHook": false,
                   "skipped": false
                 },
@@ -452,7 +452,7 @@
                   "title": "should throw error if not string",
                   "fullTitle": "stringUtils capitalize() should throw error if not string",
                   "timedOut": false,
-                  "duration": 0,
+                  "duration": 1,
                   "state": "passed",
                   "speed": "fast",
                   "pass": true,
@@ -461,27 +461,27 @@
                   "context": null,
                   "code": "expect(() => capitalize(123)).to.throw('Input must be a string');",
                   "err": {},
-                  "uuid": "c40c2154-893c-4857-916b-c8da648ade28",
-                  "parentUUID": "e2f843cf-bba7-440a-832a-19faf3ef66c0",
+                  "uuid": "5c0a2a4a-6f5d-4c26-b867-f571ebc7e336",
+                  "parentUUID": "8e712c9a-b729-4935-83b5-d1ec7ba1811c",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "8666d6f9-483d-4b33-8cdf-ff06a4c08bb4",
-                "c40c2154-893c-4857-916b-c8da648ade28"
+                "20bb2013-86a4-4fba-899a-54667b1f3228",
+                "5c0a2a4a-6f5d-4c26-b867-f571ebc7e336"
               ],
               "failures": [],
               "pending": [],
               "skipped": [],
-              "duration": 0,
+              "duration": 1,
               "root": false,
               "rootEmpty": false,
               "_timeout": 2000
             },
             {
-              "uuid": "c681331a-485d-4dd4-b1e9-c095ef82929e",
+              "uuid": "23b2b01b-96d1-498e-9469-becb6d705d62",
               "title": "reverseString()",
               "fullFile": "/Users/maryfilipova/Desktop/unit-testing-js-practice/test/stringUtils.test.mjs",
               "file": "/test/stringUtils.test.mjs",
@@ -501,8 +501,8 @@
                   "context": null,
                   "code": "expect(reverseString('abc')).to.equal('cba');",
                   "err": {},
-                  "uuid": "feaccbcd-cb71-4fcb-ad83-3d08c804e885",
-                  "parentUUID": "c681331a-485d-4dd4-b1e9-c095ef82929e",
+                  "uuid": "1518ed21-f06f-494f-aeee-be12bd4ce946",
+                  "parentUUID": "23b2b01b-96d1-498e-9469-becb6d705d62",
                   "isHook": false,
                   "skipped": false
                 },
@@ -519,16 +519,16 @@
                   "context": null,
                   "code": "expect(() => reverseString(null)).to.throw('Input must be a string');",
                   "err": {},
-                  "uuid": "44658924-05d2-45ca-bce9-e67156b2ea01",
-                  "parentUUID": "c681331a-485d-4dd4-b1e9-c095ef82929e",
+                  "uuid": "c9f31c98-3b4f-4a4d-95b7-b13726cc248c",
+                  "parentUUID": "23b2b01b-96d1-498e-9469-becb6d705d62",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "feaccbcd-cb71-4fcb-ad83-3d08c804e885",
-                "44658924-05d2-45ca-bce9-e67156b2ea01"
+                "1518ed21-f06f-494f-aeee-be12bd4ce946",
+                "c9f31c98-3b4f-4a4d-95b7-b13726cc248c"
               ],
               "failures": [],
               "pending": [],
@@ -539,7 +539,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "514584a0-7c1d-4c0a-8efa-52adcbf91c1a",
+              "uuid": "c74cd9bf-0bed-4ee2-85af-9b36fd5519a3",
               "title": "isPalindrome()",
               "fullFile": "/Users/maryfilipova/Desktop/unit-testing-js-practice/test/stringUtils.test.mjs",
               "file": "/test/stringUtils.test.mjs",
@@ -559,32 +559,14 @@
                   "context": null,
                   "code": "expect(isPalindrome('madam')).to.be.true;",
                   "err": {},
-                  "uuid": "bbbf77cb-508e-4c48-8e0a-70031cd309ba",
-                  "parentUUID": "514584a0-7c1d-4c0a-8efa-52adcbf91c1a",
+                  "uuid": "c7bbb39a-09f2-46e6-851b-ae199e98a4e3",
+                  "parentUUID": "c74cd9bf-0bed-4ee2-85af-9b36fd5519a3",
                   "isHook": false,
                   "skipped": false
                 },
                 {
                   "title": "should return false for non-palindrome",
                   "fullTitle": "stringUtils isPalindrome() should return false for non-palindrome",
-                  "timedOut": false,
-                  "duration": 1,
-                  "state": "passed",
-                  "speed": "fast",
-                  "pass": true,
-                  "fail": false,
-                  "pending": false,
-                  "context": null,
-                  "code": "expect(isPalindrome('hello')).to.be.false;",
-                  "err": {},
-                  "uuid": "9cfa753e-61e4-482f-b7e0-b7b05930204d",
-                  "parentUUID": "514584a0-7c1d-4c0a-8efa-52adcbf91c1a",
-                  "isHook": false,
-                  "skipped": false
-                },
-                {
-                  "title": "should throw error if not string",
-                  "fullTitle": "stringUtils isPalindrome() should throw error if not string",
                   "timedOut": false,
                   "duration": 0,
                   "state": "passed",
@@ -593,19 +575,37 @@
                   "fail": false,
                   "pending": false,
                   "context": null,
+                  "code": "expect(isPalindrome('hello')).to.be.false;",
+                  "err": {},
+                  "uuid": "508ad698-67f3-4c09-b91c-941f100ccbfa",
+                  "parentUUID": "c74cd9bf-0bed-4ee2-85af-9b36fd5519a3",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "should throw error if not string",
+                  "fullTitle": "stringUtils isPalindrome() should throw error if not string",
+                  "timedOut": false,
+                  "duration": 1,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
                   "code": "expect(() => isPalindrome([])).to.throw('Input must be a string');",
                   "err": {},
-                  "uuid": "88264326-8248-4191-b6f5-2d4d645aba69",
-                  "parentUUID": "514584a0-7c1d-4c0a-8efa-52adcbf91c1a",
+                  "uuid": "c7a71664-37d8-436c-879a-21dab2b50df0",
+                  "parentUUID": "c74cd9bf-0bed-4ee2-85af-9b36fd5519a3",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "bbbf77cb-508e-4c48-8e0a-70031cd309ba",
-                "9cfa753e-61e4-482f-b7e0-b7b05930204d",
-                "88264326-8248-4191-b6f5-2d4d645aba69"
+                "c7bbb39a-09f2-46e6-851b-ae199e98a4e3",
+                "508ad698-67f3-4c09-b91c-941f100ccbfa",
+                "c7a71664-37d8-436c-879a-21dab2b50df0"
               ],
               "failures": [],
               "pending": [],
@@ -626,7 +626,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "9a08bc86-e646-43da-bf16-f6defa324a0b",
+          "uuid": "ac203ce7-09e8-40d0-9312-9dc3f25acc7f",
           "title": "checkStudentKnowledge",
           "fullFile": "/Users/maryfilipova/Desktop/unit-testing-js-practice/test/studentKnowledgeCheckerUtil.test.mjs",
           "file": "/test/studentKnowledgeCheckerUtil.test.mjs",
@@ -646,8 +646,8 @@
               "context": null,
               "code": "const student = { q1: 'a', q2: 'b' };\nconst correct = { q1: 'a', q2: 'b' };\nexpect(checkStudentKnowledge(student, correct)).to.be.true;",
               "err": {},
-              "uuid": "f602d56d-be9d-4559-ae16-a8d4a6a58fa1",
-              "parentUUID": "9a08bc86-e646-43da-bf16-f6defa324a0b",
+              "uuid": "b89a0580-84b7-45d0-a1fe-61be18c9b6cb",
+              "parentUUID": "ac203ce7-09e8-40d0-9312-9dc3f25acc7f",
               "isHook": false,
               "skipped": false
             },
@@ -664,8 +664,8 @@
               "context": null,
               "code": "const student = { q1: 'a', q2: 'x' };\nconst correct = { q1: 'a', q2: 'b' };\nexpect(checkStudentKnowledge(student, correct)).to.be.false;",
               "err": {},
-              "uuid": "27781175-8eba-4924-8201-e0b637418a36",
-              "parentUUID": "9a08bc86-e646-43da-bf16-f6defa324a0b",
+              "uuid": "ba633cfe-d064-47cc-a2f0-0f5560b28617",
+              "parentUUID": "ac203ce7-09e8-40d0-9312-9dc3f25acc7f",
               "isHook": false,
               "skipped": false
             },
@@ -682,17 +682,17 @@
               "context": null,
               "code": "const student = { q1: 'a', q3: 'b' };\nconst correct = { q1: 'a', q2: 'b' };\nexpect(checkStudentKnowledge(student, correct)).to.be.false;",
               "err": {},
-              "uuid": "95a8dc5b-d0c9-4063-9e68-84a4b8363454",
-              "parentUUID": "9a08bc86-e646-43da-bf16-f6defa324a0b",
+              "uuid": "d194c496-1e55-498b-8302-e03964fbd628",
+              "parentUUID": "ac203ce7-09e8-40d0-9312-9dc3f25acc7f",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "f602d56d-be9d-4559-ae16-a8d4a6a58fa1",
-            "27781175-8eba-4924-8201-e0b637418a36",
-            "95a8dc5b-d0c9-4063-9e68-84a4b8363454"
+            "b89a0580-84b7-45d0-a1fe-61be18c9b6cb",
+            "ba633cfe-d064-47cc-a2f0-0f5560b28617",
+            "d194c496-1e55-498b-8302-e03964fbd628"
           ],
           "failures": [],
           "pending": [],
@@ -703,7 +703,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "f1ad9255-3766-4515-8bc4-63e8c913e1c3",
+          "uuid": "be6abae2-c123-43df-bbc2-5eddcc92faed",
           "title": "usersListUtils",
           "fullFile": "/Users/maryfilipova/Desktop/unit-testing-js-practice/test/usersListUtils.test.mjs",
           "file": "/test/usersListUtils.test.mjs",
@@ -723,8 +723,8 @@
               "context": null,
               "code": "const result = filterUsersByAge(users, 21, 30);\nexpect(result).to.deep.equal([users[0], users[1]]);",
               "err": {},
-              "uuid": "5cedcb89-5088-49ea-8bf2-778cea41a36c",
-              "parentUUID": "f1ad9255-3766-4515-8bc4-63e8c913e1c3",
+              "uuid": "a403733a-3d0d-49fb-be15-eb34eb31a770",
+              "parentUUID": "be6abae2-c123-43df-bbc2-5eddcc92faed",
               "isHook": false,
               "skipped": false
             },
@@ -732,7 +732,7 @@
               "title": "should sort users by name",
               "fullTitle": "usersListUtils should sort users by name",
               "timedOut": false,
-              "duration": 6,
+              "duration": 8,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -741,8 +741,8 @@
               "context": null,
               "code": "const result = sortUsersByName(users);\nexpect(result.map(u => u.name)).to.eql(['Alice', 'Bob', 'Charlie']);",
               "err": {},
-              "uuid": "a5044048-8e69-42f3-929a-0b36a24e6589",
-              "parentUUID": "f1ad9255-3766-4515-8bc4-63e8c913e1c3",
+              "uuid": "2693db71-21f8-4086-bba4-1bf751b884b7",
+              "parentUUID": "be6abae2-c123-43df-bbc2-5eddcc92faed",
               "isHook": false,
               "skipped": false
             },
@@ -759,8 +759,8 @@
               "context": null,
               "code": "const result = findUserById(users, 2);\nexpect(result).to.deep.equal(users[1]);",
               "err": {},
-              "uuid": "044282dd-7f2d-4773-bbb5-35e5af9def2e",
-              "parentUUID": "f1ad9255-3766-4515-8bc4-63e8c913e1c3",
+              "uuid": "fb6416f2-57f6-4aac-a45f-1974c4f6f997",
+              "parentUUID": "be6abae2-c123-43df-bbc2-5eddcc92faed",
               "isHook": false,
               "skipped": false
             },
@@ -777,8 +777,8 @@
               "context": null,
               "code": "const result = findUserById(users, 999);\nexpect(result).to.be.null;",
               "err": {},
-              "uuid": "aef84692-8a97-48ad-9061-4f6620f89d5f",
-              "parentUUID": "f1ad9255-3766-4515-8bc4-63e8c913e1c3",
+              "uuid": "de19ccf6-0566-4519-a5f4-b5a0a9a83f58",
+              "parentUUID": "be6abae2-c123-43df-bbc2-5eddcc92faed",
               "isHook": false,
               "skipped": false
             },
@@ -795,8 +795,8 @@
               "context": null,
               "code": "expect(isEmailTaken(users, 'alice@example.com')).to.be.true;",
               "err": {},
-              "uuid": "2c555393-43d2-43d4-be06-70bce2aea4f8",
-              "parentUUID": "f1ad9255-3766-4515-8bc4-63e8c913e1c3",
+              "uuid": "35f7547f-267c-4492-8855-c452f42157d6",
+              "parentUUID": "be6abae2-c123-43df-bbc2-5eddcc92faed",
               "isHook": false,
               "skipped": false
             },
@@ -813,25 +813,25 @@
               "context": null,
               "code": "expect(isEmailTaken(users, 'notfound@example.com')).to.be.false;",
               "err": {},
-              "uuid": "357a4833-dc35-4965-a539-1fef38f6a7f1",
-              "parentUUID": "f1ad9255-3766-4515-8bc4-63e8c913e1c3",
+              "uuid": "62aa5a16-bb70-4c90-82b5-0d3229c1cf79",
+              "parentUUID": "be6abae2-c123-43df-bbc2-5eddcc92faed",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "5cedcb89-5088-49ea-8bf2-778cea41a36c",
-            "a5044048-8e69-42f3-929a-0b36a24e6589",
-            "044282dd-7f2d-4773-bbb5-35e5af9def2e",
-            "aef84692-8a97-48ad-9061-4f6620f89d5f",
-            "2c555393-43d2-43d4-be06-70bce2aea4f8",
-            "357a4833-dc35-4965-a539-1fef38f6a7f1"
+            "a403733a-3d0d-49fb-be15-eb34eb31a770",
+            "2693db71-21f8-4086-bba4-1bf751b884b7",
+            "fb6416f2-57f6-4aac-a45f-1974c4f6f997",
+            "de19ccf6-0566-4519-a5f4-b5a0a9a83f58",
+            "35f7547f-267c-4492-8855-c452f42157d6",
+            "62aa5a16-bb70-4c90-82b5-0d3229c1cf79"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 6,
+          "duration": 8,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
