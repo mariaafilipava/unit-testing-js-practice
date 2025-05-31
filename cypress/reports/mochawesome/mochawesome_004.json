@@ -1,0 +1,162 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-05-31T22:47:45.001Z",
+    "end": "2025-05-31T22:47:51.149Z",
+    "duration": 6148,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "5e8bc518-5ead-415a-b88b-33c593660a55",
+      "title": "",
+      "fullFile": "cypress/e2e/tooltips.cy.js",
+      "file": "cypress/e2e/tooltips.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "e0806104-0b2f-4002-b435-47d5596ec852",
+          "title": "Tooltips Page Tests",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Shows tooltip on hover over button",
+              "fullTitle": "Tooltips Page Tests Shows tooltip on hover over button",
+              "timedOut": null,
+              "duration": 2112,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_ToolTipsPage.default.hoverOnButton();\n_ToolTipsPage.default.getTooltip().should('contain', 'You hovered over the Button');",
+              "err": {},
+              "uuid": "07e0e30c-d3d6-48a6-876d-ea0f47048f60",
+              "parentUUID": "e0806104-0b2f-4002-b435-47d5596ec852",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Shows tooltip on hover over text field",
+              "fullTitle": "Tooltips Page Tests Shows tooltip on hover over text field",
+              "timedOut": null,
+              "duration": 1064,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_ToolTipsPage.default.hoverOnTextField();\n_ToolTipsPage.default.getTooltip().should('contain', 'You hovered over the text field');",
+              "err": {},
+              "uuid": "35e757e2-3be3-45bc-a045-e0521b08c0b9",
+              "parentUUID": "e0806104-0b2f-4002-b435-47d5596ec852",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Shows tooltip on hover over \"Contrary\" link",
+              "fullTitle": "Tooltips Page Tests Shows tooltip on hover over \"Contrary\" link",
+              "timedOut": null,
+              "duration": 1026,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_ToolTipsPage.default.hoverOnContraryLink();\n_ToolTipsPage.default.getTooltip().should('contain', 'You hovered over the Contrary');",
+              "err": {},
+              "uuid": "8d1bfe0d-b3ea-4b93-9601-3785bf3a91a3",
+              "parentUUID": "e0806104-0b2f-4002-b435-47d5596ec852",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Shows tooltip on hover over \"1.10.32\" link",
+              "fullTitle": "Tooltips Page Tests Shows tooltip on hover over \"1.10.32\" link",
+              "timedOut": null,
+              "duration": 1031,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_ToolTipsPage.default.hoverOnSectionLink();\n_ToolTipsPage.default.getTooltip().should('contain', 'You hovered over the 1.10.32');",
+              "err": {},
+              "uuid": "9e3ab28c-3f86-4911-806c-242dab6f3bb4",
+              "parentUUID": "e0806104-0b2f-4002-b435-47d5596ec852",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "07e0e30c-d3d6-48a6-876d-ea0f47048f60",
+            "35e757e2-3be3-45bc-a045-e0521b08c0b9",
+            "8d1bfe0d-b3ea-4b93-9601-3785bf3a91a3",
+            "9e3ab28c-3f86-4911-806c-242dab6f3bb4"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 5233,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports/mochawesome",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

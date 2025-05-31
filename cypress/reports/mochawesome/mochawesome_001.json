@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-05-31T22:47:26.292Z",
+    "end": "2025-05-31T22:47:31.803Z",
+    "duration": 5511,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "7e472972-5030-42f3-808a-aa0ca8266b01",
+      "title": "",
+      "fullFile": "cypress/e2e/form.cy.js",
+      "file": "cypress/e2e/form.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "89c33bbf-8b2e-4984-8774-a52043d17ae0",
+          "title": "Practice Form Tests",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Fills and submits mandatory fields",
+              "fullTitle": "Practice Form Tests Fills and submits mandatory fields",
+              "timedOut": null,
+              "duration": 4409,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_FormPage.default.fillMandatoryFields();\n_FormPage.default.submitForm();\n_FormPage.default.checkSubmission();",
+              "err": {},
+              "uuid": "e898d45d-a3f5-4685-bab1-a6588d0e6015",
+              "parentUUID": "89c33bbf-8b2e-4984-8774-a52043d17ae0",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "e898d45d-a3f5-4685-bab1-a6588d0e6015"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 4409,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports/mochawesome",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
