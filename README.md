@@ -51,3 +51,21 @@ README.md
 ## Author
 
 Maria Filipava
+
+
+# Review 06 02
+* Remove reports from repository 
+* Repository size increases
+Report files (especially with a large number of tests) can take up gigabytes. This leads to:
+Increased repository cloning time.
+Slower work with the repository, especially when using git log and other commands.
+Storing temporary data is pointless
+Test results are temporary data that are usually only relevant until the next test run. Storing them in the repository is pointless, as they quickly become outdated.
+Merge issues
+If multiple developers or automated systems push test results to the repository, this can lead to conflicts when merging branches.
+* Where is gitignore file?
+* Is parallel test execution implemented?
+* Remove all locators to the constructors in a page object.
+* Is automatic data generation used?
+* Is Tests are run automatically via CI/CD?
+* How run separate test?

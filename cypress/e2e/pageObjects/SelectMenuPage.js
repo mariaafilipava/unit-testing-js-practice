@@ -1,8 +1,9 @@
+//TODO remove locators to the constructor
 class SelectMenuPage {
   visit() {
     cy.visit('https://demoqa.com/select-menu');
   }
-
+//TODO create function selectValueOption(value)
   selectValueOption() {
     cy.get('#withOptGroup').click();
     cy.contains('div', 'Group 2, option 1').click();

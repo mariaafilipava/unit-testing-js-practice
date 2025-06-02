@@ -1,3 +1,4 @@
+//TODO remove locators to the constructor
 class FormPage {
   visit() {
     cy.visit('https://demoqa.com/automation-practice-form');
