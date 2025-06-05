@@ -15,4 +15,3 @@ describe('Practice Form Tests', () => {
     FormPage.checkSubmission();
   });
 });
-

@@ -1,22 +1,30 @@
 class AlertsPage {
+  constructor() {
+    this.url = 'https://demoqa.com/alerts';
+    this.alertButton = '#alertButton';
+    this.confirmButton = '#confirmButton';
+    this.promptButton = '#promtButton';
+    this.timerButton = '#timerAlertButton';
+  }
+
   visit() {
-    cy.visit('https://demoqa.com/alerts');
+    cy.visit(this.url);
   }
 
   clickAlertButton() {
-    cy.get('#alertButton').click();
+    cy.get(this.alertButton).click();
   }
 
   clickConfirmButton() {
-    cy.get('#confirmButton').click();
+    cy.get(this.confirmButton).click();
   }
 
   clickPromptButton() {
-    cy.get('#promtButton').click();
+    cy.get(this.promptButton).click();
   }
 
   clickTimerButton() {
-    cy.get('#timerAlertButton').click();
+    cy.get(this.timerButton).click();
   }
 }
 

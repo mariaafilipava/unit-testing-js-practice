@@ -41,6 +41,18 @@ README.md
 4. Generate the final HTML report: npm run generate-report
 5. The final report will be saved in: cypress/reports/mochawesome/mochawesome.html
 
+## CI/CD Setup (GitHub Actions)
+
+Cypress tests run automatically via GitHub Actions:
+
+- On every push to `main`
+- On every pull request to `main`
+- Daily at 03:00 UTC (cron job)
+
+Config file: `.github/workflows/cypress.yml`
+
+Test reports are uploaded as artifacts after each run.
+
 ## Additional Information
 
 - All tests follow the Page Object Model structure.

@@ -14,4 +14,3 @@ describe('Text Box Tests', () => {
     TextBoxPage.checkResult();
   });
 });
-
