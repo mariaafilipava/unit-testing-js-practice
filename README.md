@@ -63,9 +63,10 @@ Storing temporary data is pointless
 Test results are temporary data that are usually only relevant until the next test run. Storing them in the repository is pointless, as they quickly become outdated.
 Merge issues
 If multiple developers or automated systems push test results to the repository, this can lead to conflicts when merging branches.
-* Where is gitignore file?
+* Where is a gitignore file?
 * Is parallel test execution implemented?
 * Remove all locators to the constructors in a page object.
 * Is automatic data generation used?
-* Is Tests are run automatically via CI/CD?
-* How run separate test?
+* Are Tests are run automatically via CI/CD?
+* How runs separate test (with key word)?
+* It has been observed that there is inconsistency in the structure of the tests. While some validations and assertions are implemented within the Page Object Model (POM), others are directly written in the test files. This inconsistency can lead to confusion, reduced maintainability, and difficulty in scaling the test suite.

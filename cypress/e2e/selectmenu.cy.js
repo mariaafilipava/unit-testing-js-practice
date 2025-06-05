@@ -3,7 +3,7 @@ import SelectMenuPage from './pageObjects/SelectMenuPage';
 Cypress.on('uncaught:exception', (err, runnable) => {
   return false;
 });
-
+//TODO Remove locators to the page object constructor section
 describe('Select Menu Page Tests', () => {
   beforeEach(() => {
     SelectMenuPage.visit();
