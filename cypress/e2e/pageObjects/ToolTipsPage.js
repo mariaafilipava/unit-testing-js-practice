@@ -1,3 +1,4 @@
+//TODO remove locators to the constructor
 class ToolTipsPage {
   visit() {
     cy.visit('https://demoqa.com/tool-tips');

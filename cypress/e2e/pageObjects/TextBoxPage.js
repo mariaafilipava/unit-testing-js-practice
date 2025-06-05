@@ -1,3 +1,4 @@
+//TODO remove locators to the constructor
 class TextBoxPage {
   visit() {
     cy.visit('https://demoqa.com/text-box');

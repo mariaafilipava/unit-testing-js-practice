@@ -3,7 +3,7 @@ import AlertsPage from './pageObjects/AlertsPage';
 Cypress.on('uncaught:exception', (err, runnable) => {
   return false;
 });
-
+//TODO Remove locators to the page object constructor section
 describe('Alerts Page Tests', () => {
   beforeEach(() => {
     AlertsPage.visit();
