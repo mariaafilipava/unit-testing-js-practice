@@ -63,3 +63,9 @@ Test reports are uploaded as artifacts after each run.
 ## Author
 
 Maria Filipava
+
+# Review 
+* Is parallel test execution implemented?
+* Is automatic data generation used?
+* How runs separate test (with key word)?
+* It has been observed that there is inconsistency in the structure of the tests. While some validations and assertions are implemented within the Page Object Model (POM), others are directly written in the test files. This inconsistency can lead to confusion, reduced maintainability, and difficulty in scaling the test suite.
