@@ -8,7 +8,8 @@ describe('Select Menu Page Tests', () => {
   beforeEach(() => {
     SelectMenuPage.visit();
   });
-
+//TODO rewrite SelectMenuPage.selectValueOption('Group 1, option 1');
+  //Actions present, where validations in test?
   it('Selects Group 2, option 1 from Select Value', () => {
     SelectMenuPage.selectValueOption();
   });

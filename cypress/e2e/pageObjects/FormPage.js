@@ -13,6 +13,7 @@ class FormPage {
   visit() {
     cy.visit(this.url);
   }
+//TODO use random data for tests
 
   fillMandatoryFields() {
     cy.get(this.firstName).type('Maria');
