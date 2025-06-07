@@ -4,7 +4,7 @@ class FormPage {
     this.firstName = '#firstName';
     this.lastName = '#lastName';
     this.email = '#userEmail';
-    this.genderRadio = 'label[for="gender-radio-2"]'; // Female
+    this.genderRadio = 'label[for="gender-radio-2"]';
     this.phone = '#userNumber';
     this.submitButton = '#submit';
     this.modalTitle = '#example-modal-sizes-title-lg';
@@ -23,11 +23,11 @@ class FormPage {
   }
 
   submitForm() {
-    cy.get(this.submitButton).click({ force: true });
+    cy.get(this.submitButton).scrollIntoView().click({ force: true });
   }
 
   checkSubmission() {
-    cy.get(this.modalTitle).should('contain', 'Thanks for submitting the form');
+    cy.get(this.modalTitle, { timeout: 10000 }).should('be.visible').and('contain', 'Thanks for submitting the form');
   }
 }
 

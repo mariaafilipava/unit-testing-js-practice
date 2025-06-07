@@ -63,3 +63,18 @@ Test reports are uploaded as artifacts after each run.
 ## Author
 
 Maria Filipava
+
+## Review
+
+**Is parallel test execution implemented?**  
+Not implemented — Cypress runs tests sequentially by default.
+
+**Is automatic data generation used?**  
+Yes — implemented using `@faker-js/faker` in form tests to generate random names, emails, and phone numbers.
+
+**How runs separate test (with key word)?**  
+Use the `--spec` flag. Example:  
+`npx cypress run --spec "cypress/e2e/selectmenu.cy.js"`
+
+**Inconsistency in test structure**  
+This has been addressed. All tests now follow the Page Object Model (POM) structure, and validations are included for all actions.

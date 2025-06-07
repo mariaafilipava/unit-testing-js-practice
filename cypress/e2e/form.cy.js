@@ -1,8 +1,6 @@
 import FormPage from './pageObjects/FormPage';
 
-Cypress.on('uncaught:exception', (err, runnable) => {
-  return false;
-});
+Cypress.on('uncaught:exception', () => false);
 
 describe('Practice Form Tests', () => {
   beforeEach(() => {

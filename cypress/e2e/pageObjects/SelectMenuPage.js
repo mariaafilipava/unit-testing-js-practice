@@ -5,7 +5,7 @@ class SelectMenuPage {
     this.groupOption = 'div';
     this.selectOne = '#selectOne';
     this.oldStyleMenu = '#oldSelectMenu';
-    this.multiSelectContainer = '.css-2b097c-container';
+    this.multiSelectPlaceholder = '.css-1wa3eu0-placeholder'; // мультиселект: Black/Blue
   }
 
   visit() {
@@ -27,10 +27,16 @@ class SelectMenuPage {
   }
 
   selectMultiOptions() {
-    cy.get(this.multiSelectContainer).eq(2).click();
+    cy.get(this.multiSelectPlaceholder).eq(2).click();
     cy.contains('div', 'Black').click();
-    cy.get(this.multiSelectContainer).eq(2).click();
+
+    cy.get(this.multiSelectPlaceholder).eq(2).click();
     cy.contains('div', 'Blue').click();
+  }
+
+  checkMultiSelectValues() {
+    cy.contains('div', 'Black').should('exist');
+    cy.contains('div', 'Blue').should('exist');
   }
 }
 
