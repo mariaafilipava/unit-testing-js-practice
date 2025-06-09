@@ -27,7 +27,9 @@ class FormPage {
   }
 
   checkSubmission() {
-    cy.get(this.modalTitle, { timeout: 10000 }).should('be.visible').and('contain', 'Thanks for submitting the form');
+    cy.get(this.modalTitle, { timeout: 10000 })
+      .should('be.visible')
+      .and('contain', 'Thanks for submitting the form');
   }
 }
 

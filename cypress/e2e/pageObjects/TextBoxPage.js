@@ -17,15 +17,13 @@ class TextBoxPage {
     cy.visit(this.url);
   }
 
-  fillForm() {
+  fillFormAndSubmit() {
     cy.get(this.nameInput).type('Maria Filipava');
     cy.get(this.emailInput).type('maria@example.com');
     cy.get(this.currentAddressInput).type('Vilnius, Gedimino pr. 1');
     cy.get(this.permanentAddressInput).type('Minsk, Nemiga 12');
     cy.get(this.submitButton).click();
-  }
 
-  checkResult() {
     cy.get(this.outputName).should('contain', 'Maria Filipava');
     cy.get(this.outputEmail).should('contain', 'maria@example.com');
     cy.get(this.outputCurrentAddress).should('contain', 'Vilnius');

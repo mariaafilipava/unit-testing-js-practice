@@ -28,8 +28,8 @@ class ToolTipsPage {
     cy.contains('a', this.sectionLinkText).trigger('mouseover');
   }
 
-  getTooltip() {
-    return cy.get(this.tooltip);
+  checkTooltip(expectedText) {
+    cy.get(this.tooltip).should('contain', expectedText);
   }
 }
 

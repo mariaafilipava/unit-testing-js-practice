@@ -11,19 +11,38 @@ class AlertsPage {
     cy.visit(this.url);
   }
 
-  clickAlertButton() {
+  handleSimpleAlert() {
+    cy.window().then((win) => {
+      cy.on('window:alert', (str) => {
+        expect(str).to.equal('You clicked a button');
+      });
+    });
     cy.get(this.alertButton).click();
   }
 
-  clickConfirmButton() {
+  handleConfirmAlert(accept = true) {
+    cy.window().then((win) => {
+      cy.stub(win, 'confirm').returns(accept);
+    });
     cy.get(this.confirmButton).click();
+    const expectedText = accept ? 'You selected Ok' : 'You selected Cancel';
+    cy.get('#confirmResult').should('contain', expectedText);
   }
 
-  clickPromptButton() {
+  handlePromptAlert(text) {
+    cy.window().then((win) => {
+      cy.stub(win, 'prompt').returns(text);
+    });
     cy.get(this.promptButton).click();
+    cy.get('#promptResult').should('contain', text);
   }
 
-  clickTimerButton() {
+  handleDelayedAlert() {
+    cy.window().then(() => {
+      cy.on('window:alert', (str) => {
+        expect(str).to.equal('This alert appeared after 5 seconds');
+      });
+    });
     cy.get(this.timerButton).click();
   }
 }

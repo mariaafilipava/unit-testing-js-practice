@@ -1,16 +1,13 @@
 import TextBoxPage from './pageObjects/TextBoxPage';
 
-Cypress.on('uncaught:exception', (err, runnable) => {
-  return false;
-});
+Cypress.on('uncaught:exception', () => false);
 
 describe('Text Box Tests', () => {
   beforeEach(() => {
     TextBoxPage.visit();
   });
 
-  it('Fills form and checks displayed result', () => {
-    TextBoxPage.fillForm();
-    TextBoxPage.checkResult();
+  it('Fills form and verifies displayed result', () => {
+    TextBoxPage.fillFormAndSubmit();
   });
 });
