@@ -1,0 +1,19 @@
+{
+  "name": "api-testing-demoqa",
+  "version": "1.0.0",
+  "description": "API tests for demoqa.com endpoints and mocked responses",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.10.0"
+  },
+  "devDependencies": {
+    "jest": "^30.0.0",
+    "nock": "^14.0.5"
+  }
+}
